@@ -41,12 +41,7 @@ source $ZSH_HOME/zplug/init.zsh
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
-  printf "Install? [y/N]: "
-  if read -q; then
-    echo; zplug install
-  else
-    echo
-  fi
+  zplug install
 fi
 
 # Then, source plugins and add commands to $PATH
