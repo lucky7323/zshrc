@@ -16,7 +16,3 @@ export ZSH_HOME=$HOME/.zsh
 ### Plugins Configuration
 [ -f $ZSH_HOME/plugins.zsh ] && source $ZSH_HOME/plugins.zsh
 
-
-### Custom Powerlevel10k Configuration
-[[ ! -f $ZSH_HOME/p10k.zsh ]] || source $ZSH_HOME/p10k.zsh
-
