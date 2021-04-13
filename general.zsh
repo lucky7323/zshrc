@@ -1,7 +1,7 @@
 ### Locale {{{
   # You may need to manually set your language environment
   export LANG="en_US.UTF-8"
-  export LANGUAGE=
+  export LANGUAGE="en_US.UTF-8"
   export LC_CTYPE="en_US.UTF-8"
   export LC_NUMERIC="en_US.UTF-8"
   export LC_TIME="en_US.UTF-8"
@@ -14,6 +14,7 @@
   export LC_TELEPHONE="ko_KR.UTF-8"
   export LC_MEASUREMENT="ko_KR.UTF-8"
   export LC_IDENTIFICATION="ko_KR.UTF-8"
+  export LC_ALL="en_US.UTF-8"
 ### }}}
 
 
