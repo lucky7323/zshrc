@@ -1,5 +1,7 @@
 #! /bin/sh
 
+cd ~/.zsh
+
 git submodule update --init zplug
 git submodule update --remote zplug
 
